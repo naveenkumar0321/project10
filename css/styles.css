@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+}
+.interior-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    position: relative;
+}
+.inner-container{
+    position: absolute;
+    top:0px;
+    left:0px
+}
+.logo{
+    width: 100px;
+    height: 40px;
+}
+.ponecall{
+    width: 25px;
+}
+.nav{
+    margin-top:50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-links{
+    margin-left: 162px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(255,255,255);
+}
+.nav-items{
+    text-decoration: none;
+    /* color:rgb(29,117,131); */
+    color:#03203C;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-right: 50px;
+}
+.nav-items:hover{
+    color:rgb(255,255,255);
+    cursor: pointer;
+}
+.call-us{
+    color:#03203C;
+    font-weight: 600;
+    font-size:12px;
+    font-family: sans-serif;
+    position: relative;
+    top:-20px
+}
+.call-us:hover{
+    color:rgb(255,255,255);
+    cursor: pointer;
+}
+.number:hover{
+    color:rgb(255,255,255);
+    cursor: pointer;
+}
+.number{
+    color:#03203C;
+    font-weight: 600;
+    font-size:12px;
+    font-family: sans-serif;
+    position: relative;
+    left:-45px
+}
+.title{
+    color:#120E43;
+    font-family: sans-serif;
+    position: relative;
+    top:60px;
+    left: 80px;
+    font-size: 50px;
+}
+.content{
+    color:rgb(255,255,255);
+    font-family: sans-serif;
+}
+.spacer1{
+    position: absolute;
+    background-color: rgb(48,68,84);
+    padding-top:20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    top: 177px;
+    right: 0px;
+    width: 25%;
+}
+.decor1{
+    display: block;
+    border-right:2px solid #120E43 ;
+    width: 20px;
+    height: 60px;
+    left: 982px;
+    position: absolute;
+    top: 326px;
+}
+.round{
+    display: inline-block;
+    background-color:#120E43;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    left: 996px;
+    position: absolute;
+    top: 385px;
+}
+.spacer2{
+    position:absolute;
+    background-color: rgb(48,68,84);
+    padding-top:20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    left: 439px;
+    top: 403px;
+    width: 25%;
+}
+.decor2{
+    display: block;
+    border-bottom:2px solid #120E43 ;
+    width: 60px;
+    height: 40px;
+    left: 724px;
+    position: absolute;
+    top: 426px;
+}
+.round2{
+    display: inline-block;
+    background-color:#120E43;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    left: 784px;
+    position: absolute;
+    top: 460px;
+}
+.readmore{
+    padding:15px 40px;
+    border-radius:25px;
+    background-color: rgb(48,68,84);
+    color:rgb(255,255,255);
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight: 600;
+    position: relative;
+    top:80px;
+    left:80px;
+    border:1px solid rgb(255,255,255);
+    cursor: pointer;
+}
+.content-div{
+    width: 100%;
+}
